@@ -67,7 +67,7 @@ To enable payments in this app, you need to set up your Razorpay Test Key.
 2. Select the **Test Mode** from the top right toggle.
 3. Navigate to **Account & Settings** > **API Keys**.
 4. Click on **Generate Test Key**.
-5. You will get a **Key ID** (e.g., `rzp_test_xxxxxxxxxxxxxx`).
+5. You will get a **Key ID** (e.g., `rzp_test_vIrTuAlKeY2024`).
 
 ### Setup in Android Studio:
 1. Open `app/src/main/java/com/example/truefans_creator/PaymentGatewayActivity.kt`.
@@ -75,7 +75,7 @@ To enable payments in this app, you need to set up your Razorpay Test Key.
 3. Replace the placeholder with your actual **Key ID**.
 
 ```kotlin
-private val RAZORPAY_KEY_ID = "YOUR_RZP_TEST_KEY_HERE"
+private val RAZORPAY_KEY_ID = "YOUR_RZP_TEST_KEY_HERE","rzp_test_vIrTuAlKeY2024"
 ```
 
 ### Razorpay Test Credentials:
