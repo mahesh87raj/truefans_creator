@@ -56,7 +56,7 @@ The idea behind the app is simple — creators can showcase their profile and fa
 
 ##### Razorpay test key 
 
-1.val RAZORPAY_KEY_ID = "rzp_test_5S8f7mY9ZkL2qP"
+1.val RAZORPAY_KEY_ID = "rzp_test_vIrTuAlKeY2024"
 =======
 ## Razorpay Integration Setup
 
