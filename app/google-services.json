@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409663745952",
+    "project_id": "truefans-creator",
+    "storage_bucket": "truefans-creator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409663745952:android:e40a2565682b01477b3ec5",
+        "android_client_info": {
+          "package_name": "com.example.truefans_creator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gpxHg7ScbTO1oxiiZpsW2Y4Ku3-G2Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
