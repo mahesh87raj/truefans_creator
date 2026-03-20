@@ -18,6 +18,9 @@ The idea behind the app is simple — creators can showcase their profile and fa
 - Smooth scrolling and simple UI
 
 ---
+###  Auth : I used firebase  Auth(Email  & password)
+
+
 
 ### 2. Fan Payment Flow
 
@@ -47,6 +50,9 @@ The idea behind the app is simple — creators can showcase their profile and fa
 - MVVM Architecture
 - Room Database
 - Razorpay SDK (Test Mode)
+
+- ###  Auth : I used firebase  Auth(Email  & password)
+
 
 ---
 
@@ -89,4 +95,61 @@ Use these for testing successful payments:
 | **OTP** | `123456` |
 
 *For more test cards (Mastercard, Rupay, etc.), visit [Razorpay Test Cards](https://razorpay.com/docs/payments/payments/test-card-details/).*
->>>>>>> b25059f (Updated project files)
+>>>>>>> b25059f (Updated project files),
+>>>>>
+>>>>># TrueFans Creator App
+
+## About the Project
+This project was built as part of the TrueFans Hackathon.
+
+The idea behind the app is simple — creators can showcase their profile and fans can support them by sending tips. The main focus of this project is to create a smooth and realistic payment experience along with a clean and user-friendly UI.
+
+---
+
+## What I Built
+
+### 1. Creator Profile Screen
+- Shows creator image, name, and bio
+- Follow / Unfollow button
+- Tip button with bottom sheet (₹50 / ₹100 / ₹500)
+- Grid layout for past content (using mock data)
+- Smooth scrolling and simple UI
+
+---
+
+### 2. Fan Payment Flow
+
+#### Support Creator Screen
+- Three tip options: ₹50, ₹100, ₹500
+- Option to enter custom amount
+
+#### Checkout Screen
+- Shows selected amount
+- 10% platform fee
+- Final amount received by creator
+
+#### Payment Screen
+- Razorpay integration (Test Mode)
+- (In case not working, a simulated payment flow is used)
+
+#### Success / Failure Screen
+- Shows payment result
+- Displays transaction ID
+- Option to try again or go back
+
+---
+
+## Tech Stack Used
+- Kotlin / Java
+- Android Studio
+- MVVM Architecture
+- Room Database
+- Razorpay SDK (Test Mode)
+- ###  Auth : I used firebase  Auth(Email  & password)
+
+
+---
+
+## How to Run the Project
+
+1. Clone this repository:
